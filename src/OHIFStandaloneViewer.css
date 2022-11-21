@@ -1,0 +1,30 @@
+#dcom-viewer {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto, OpenSans, HelveticaNeue-Light, Helvetica Neue Light,
+    Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+#dcom-viewer .fade-enter {
+  opacity: 0;
+}
+
+#dcom-viewer .fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+#dcom-viewer .fade-exit {
+  opacity: 1;
+}
+
+#dcom-viewer .fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
